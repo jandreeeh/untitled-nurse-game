@@ -1,0 +1,44 @@
+Heal
+
+-healing troops in a medic station as a medic
+-gathering ingredients to create medicine to heal someone
+-advertise a healing productto generate revenue
+-a negotiator trying to heal two opposing groups
+-a priest healing everyone from sin
+-cleaning your room to slowly heal yourself from depression
+-perform surgery on a person thru a series of microgames
+-clear a level to get to an injured man and heal them
+-complete a level with janky controls while avoiding obstacles that impedes your healing
+-create a stimpank by mixing ingredients and putting it in a syringe
+-promote vegetables to a group of kids
+-finding the right frequency to heal someone
+-a quack doctor using unorthadox ways to heal someone
+-find all the drugs from your friends house to help them heal drom the addiction
+-a rail shooter where you must find the right meds 
+-a nurse in an arena where you run around and heal students with simple first aid
+-scout out the source of the illness andf destroy it
+
+"a nurse in an arena where you run around and heal students with simple first aid"
+simple 2d topdown, arcadde style game
+procedural animation(simple rotation animation)
+simplistic art(mostly dominated by one color)
+
+gameplay loop
+-you run around the school outside area and aid students that have been injured from playing around(2d topdown)
+-aproach an injured student and a hud pops up, showig your equipment and the injured paert of their body(click and drag)
+-use the correct tools and heal the student
+-you have a strict timer
+
+elements
+-player
+-students
+-hud
+-tools
+-timer
+
+actions
+-player runs around the area. when approching an injured student, a prompt shows up and when pressed, the aiding portion shows up.
+-students run around the field, having a random chance of being injured. when injured, they stay in place. when the player finishes aiding them, they change color and walks out the area.
+-hud shows up when pressing the prompt close to an injured student. it shows the injured area.
+-tools have their own specific use cases. for wxample, a bandage is used on a cut, a compress on a bruise(wip)
+-timer shows the time left before the game finishes
